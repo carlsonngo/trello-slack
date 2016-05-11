@@ -1,0 +1,33 @@
+{
+  "name": "trello-slack",
+  "version": "1.0.0",
+  "description": "AWS Lambda function for Slack Command -> Trello Create note under list",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlsonngo/trello-slack.git"
+  },
+  "keywords": [
+    "trello",
+    "slack",
+    "aws",
+    "lambda"
+  ],
+  "author": "Carlson Ngo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/carlsonngo/trello-slack/issues"
+  },
+  "homepage": "https://github.com/carlsonngo/trello-slack#readme",
+  "dependencies": {
+    "lodash": "^4.12.0",
+    "superagent": "^1.8.3"
+  },
+  "devDependencies": {
+    "aws-lambda-mock-context": "^2.0.0",
+    "chai": "^3.5.0"
+  }
+}
